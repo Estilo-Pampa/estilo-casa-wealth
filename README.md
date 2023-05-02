@@ -21,11 +21,11 @@ Regarding the Git files, here are the steps you should follow:
 6. Add the remote repository URL as a remote to your local repository by running the command `git remote add origin <remote repository URL>`.
 7. Push the local repository to the remote repository by running the command `git push -u origin main`.
 
-That's it! Now your project files are version controlled and stored in a remote repository that you can access from anywhere.
 
-Continue
+That's it! Now your project files are version controlled and stored in a remote repository 
 
-Sure, here's the continued outline with file names and a brief description:
+
+continued outline with file names and a brief description:
 
 1. `arduino.ino` - This is the main code for the Arduino framework, which includes the functions for the temperature and humidity sensors, as well as the LCD display.
 
