@@ -1,0 +1,27 @@
+<!-- HTML code for the home page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Home</title>
+</head>
+<body>
+    <h1>Welcome to Smart Home</h1>
+    <p>Temperature: <span id="temperature"></span></p>
+    <p>Humidity: <span id="humidity"></span></p>
+    <p>Pressure: <span id="pressure"></span></p>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            setInterval(function() {
+                $.get('/data', function(data) {
+                    $('#temperature').text(data.temperature);
+                    $('#humidity').text(data.humidity);
+                    $('#pressure').text(data.pressure);
+                });
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
