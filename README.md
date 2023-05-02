@@ -1,9 +1,9 @@
 # estilo-pamba-wealth
 home and personal economic tool 
 
-#Sure, I'd be happy to give you a summary of the project and what you should do with the Git files now.
 
 Summary:
+
 - We developed a web application using various programming languages and frameworks such as HTML, CSS, JavaScript, Python, Flask, and MongoDB.
 - The application allows users to manage projects, assign tasks to team members, track time spent on tasks, and generate financial reports.
 - We created a database schema to store project and task data, and wrote Python scripts to interact with the database and perform CRUD operations.
